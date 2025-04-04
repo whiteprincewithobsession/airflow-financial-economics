@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Financial Data Report - {{ date }}</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        h1 { color: #2c3e50; }
+        .section { margin-bottom: 30px; }
+        .plot { text-align: center; margin: 20px 0; }
+        img { max-width: 100%; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        .footer { margin-top: 50px; font-size: 0.8em; color: #7f8c8d; }
+    </style>
+</head>
+<body>
+    <h1>Financial Data Analysis Report</h1>
+    <p>Generated on: {{ date }}</p>
+    
+    <div class="section">
+        <h2>1. Correlation Analysis</h2>
+        <div class="plot">
+            <img src="{{ correlation_plot }}" alt="Correlation Matrix">
+        </div>
+    </div>
+    
+    <div class="section">
+        <h2>2. Price Trend Analysis</h2>
+        <div class="plot">
+            <img src="{{ price_plot }}" alt="Price Trend">
+        </div>
+    </div>
+    
+    <div class="section">
+        <h2>3. Seasonal Decomposition</h2>
+        <div class="plot">
+            <img src="{{ seasonal_plot }}" alt="Seasonal Decomposition">
+        </div>
+    </div>
+    
+    <div class="footer">
+        <p>Report generated automatically by Airflow ETL pipeline</p>
+    </div>
+</body>
+</html>
