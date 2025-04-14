@@ -35,12 +35,12 @@
 
 ```bash
 # Клонировать репозиторий
-git clone https://github.com/yourusername/financial-etl.git
+git clone https://github.com/whiteprincewithobsession/financial-etl.git
 
 # Установить зависимости
 pip install -r requirements.txt
 
-# Запустить Airflow
+# Запустить Airflow (возможен запуск контейнера docker)
 airflow standalone
 ```
 
