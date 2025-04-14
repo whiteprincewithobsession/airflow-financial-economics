@@ -40,9 +40,13 @@ git clone https://github.com/whiteprincewithobsession/financial-etl.git
 # Установить зависимости
 pip install -r requirements.txt
 
-# Запустить Airflow (возможен запуск контейнера docker)
+# Запустить Airflow
 airflow standalone
 ```
+## ▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼
+##  ВАЖНО: Предпочтительнее запуск docker-образа airflow
+##         Все нужные docker-файлы присутствуют в репозитории
+## ▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲
 
 ## 🏗 Архитектура пайплайна
 ```mermaid
