@@ -4,7 +4,7 @@
 ![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=for-the-badge&logo=Apache%20Spark&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-Профессиональный ETL-пайплайн для обработки финансовых данных с расширенной аналитикой и мониторингом качества данных.
+ETL-пайплайн для обработки финансовых данных с расширенной аналитикой и мониторингом качества данных.
 
 ## 📌 Основные возможности
 
